@@ -1,0 +1,31 @@
+body {
+    background: rgb(225, 186, 243);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    background: whitesmoke;
+    border-radius: 10px; /* deixa as bordas arredondadas */
+    padding: 15px; /* altura do quadrado */
+    width: 500px; /* largura do quadrado*/
+    margin: auto; /* centralizar o quadrado */
+    box-shadow: 4px /*deslocamento lateral*/  4px /*deslocamento vertical*/ 10px /*espalhamento*/ rgba(0, 0, 0, 0.253);
+}
+
+div {
+    text-align: center; /* coloca no centro os elementos. */
+    padding: 9px; /* distancia dos elementos */
+    color: rgba(0, 0, 0, 0.623)
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center; /* centralizar texto */
+    font-style: italic; /* fonte de copyright italica */
+}
